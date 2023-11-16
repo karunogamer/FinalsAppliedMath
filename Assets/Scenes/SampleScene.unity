@@ -330,16 +330,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab626dc4895da83449931ada2a12f21b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pipePrefab: {fileID: 8304879021517040004, guid: ae3aeb662c2b006429ba9f8b1f260967, type: 3}
-  score: {fileID: 0}
-  dead: {fileID: 0}
+  spikePrefab: {fileID: 8304879021517040004, guid: ae3aeb662c2b006429ba9f8b1f260967, type: 3}
+  score: {fileID: 20069563}
+  dead: {fileID: 20069565}
   spawnRate: 0.5
-  minY: -2
-  maxY: 2
+  minY: -1
+  maxY: 1
   poolSize: 5
-  pipeSpeed: 2
-  birdTransform: {fileID: 1804287994}
-  pipeWidth: 1.5
+  spikeSpeed: 2
+  planeTransform: {fileID: 1804287994}
+  spikeWidth: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
